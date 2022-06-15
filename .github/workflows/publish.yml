@@ -27,9 +27,10 @@ jobs:
         uses: pengx17/logseq-publish@v0.1
         with:
           dest: docs
+      - name: Configure custom domain
+        run: echo "telecom.jeon.engineer" > $GITHUB_WORKSPACE/docs/CNAME
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.9
         with:
           branch: gh-pages
-          folder: docs
           clean: true
