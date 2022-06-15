@@ -1,0 +1,3 @@
+xvfb-run node publish.mjs -p graph/ -t true -o graph/docs
+exit $?
+
