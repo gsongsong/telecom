@@ -21,7 +21,8 @@ public:: true
 	  ```
 - # Frequency band selection by a UE
 	- If a UE supports one or more frequency bands broadcast in SIB1, it selects the first supported one. According to this, the UE and the network implicitly aligns a frequency band they are going to use:
-	  > 4> select the first frequency band in the _frequencyBandList_, for FDD from _frequencyBandList_ for uplink,or for TDD from _frequencyBandList_ for downlink, which the UE supports - 3GPP TS 38.331 clause 5.2.2.4.2  Actions upon reception of the SIB1
+	  > 4> select the first frequency band in the _frequencyBandList_, for FDD from _frequencyBandList_ for uplink,or for TDD from _frequencyBandList_ for downlink, which the UE supports
+	  from 3GPP TS 38.331 clause 5.2.2.4.2  Actions upon reception of the SIB1
 - # Frequency band change by the network
 	- If the network determines that they need to align with a different frequency band than before, it can be done by RRC signalling with the following IEs:
 	  ```yml
