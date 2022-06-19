@@ -40,3 +40,7 @@ public:: true
 	  ```
 	- Contrary to SIB1, _frequencyBandList_ can contain only one _freqBandIndicatorNR_.
 	- The most important thing is that these IEs are included in _reconfigurationWithSync_, which means that the network needs to command the UE to ==perform intra-cell handover or intra-cell PSCell change to re-align a frequency band.==
+- # References
+	- 3GPP TS 38.101-1 NR; UE radio Tx and Rx; Part 1: Range 1
+	- 3GPP TS 38.101-2 NR; UE radio Tx and Rx Part 2: Range 2
+	- 3GPP TS 38.331 NR; Radio Resource Control (RRC) protocol
