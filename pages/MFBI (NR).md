@@ -13,11 +13,11 @@ public:: true
 	      downlinkConfigCommon  (DownlinkConfigCommonSIB):
 	        frequencyInfoDL     (FrequencyInfoDL-SIB):
 	          frequencyBandList (MultiFrequencyBandListNR-SIB):
-	            - freqBandIndicaotrNR
+	            - freqBandIndicatorNR
 	      uplinkConfigCommon    (UplinkConfigComminSIB):
 	        frequencyInfoUL     (FrequencyInfoUL-SIB):
 	          frequencyBandList (MultiFrequencyBandListNR-SIB):
-	            - freqBandIndicaotrNR
+	            - freqBandIndicatorNR
 	  ```
 - # Frequency band selection by a UE
 	- If a UE supports one or more frequency bands broadcast in SIB1, it selects the first supported one. According to this, the UE and the network implicitly aligns a frequency band they are going to use:
@@ -33,11 +33,11 @@ public:: true
 	          downlinkConfigCommon (DownlinkConfigCommon):
 	            frequencyInfoDL     (FrequencyInfoDL):
 	              frequencyBandList (MultiFrequencyBandListNR):
-	                - freqBandIndicaotrNR
+	                - freqBandIndicatorNR
 	          uplinkConfigCommon (UplinkConfigCommon):
 	            frequencyInfoUL     (FrequencyInfoUL):
 	              frequencyBandList (MultiFrequencyBandListNR):
-	                - freqBandIndicaotrNR
+	                - freqBandIndicatorNR
 	  ```
 	- Contrary to SIB1, _frequencyBandList_ can contain only one _freqBandIndicatorNR_.
 	- The most important thing is that these IEs are included in _reconfigurationWithSync_, which means that the network needs to command the UE to ==perform intra-cell handover or intra-cell PSCell change to re-align a frequency band.==
