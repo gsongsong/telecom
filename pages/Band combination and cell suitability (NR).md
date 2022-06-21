@@ -1,7 +1,8 @@
+title:: Band combination and cell suitability (NR)
 type:: article
 tags:: band combination, NR
 
-- _Note: Currently NR CA in standalone and NR-DC are i scope of this article. Missing fields/IEs/properties will be updated continuously._
+- _Disclaimer: This article summarizes the very basic and general IEs. When concerning dual connectivity, IAB or others, other IEs not mentioned in this article may have to be considered._
 - # UE-NR-Capability
 	- ```yml
 	  UE-NR-Capability:
@@ -18,8 +19,6 @@ tags:: band combination, NR
 	    channelBWs-DL-v1590
 	    channelBWs-UL-v1590
 	    asymmetricBandwidthCombinationSet
-	    channelBWs-DL-IAB-r16
-	    channelBWs-UL-IAB-r16
 	  ```
 - # BandCombination[-suffix]
 	- In this section, necessary child fileds under `-suffix` are accumulated
@@ -31,5 +30,7 @@ tags:: band combination, NR
 	    ca-ParametersNRDC (CA-ParametersNRDC)
 	    
 	  ```
+- # Visualization
+	-
 - # References
 	- 3GPP TS 38.331 NR; Radio Resource Control (RRC) protocol
