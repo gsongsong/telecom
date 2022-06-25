@@ -31,7 +31,7 @@ jobs:
         run: |
           cd docs
           wget -O logseq-publish-github-pages-wa.js https://gist.githubusercontent.com/gsongsong/b41dec1b348edc9e0fdfd60d43065d91/raw/edff588d4b75fa7aa04ab2048e5c1bc243a53e4b/logseq-publish-github-pages-wa.js
-          node logseq-publish-github-pages.js
+          node logseq-publish-github-pages-wa.js
       - name: Configure custom domain
         run: echo "telecom.jeon.engineer" > $GITHUB_WORKSPACE/docs/CNAME
       - name: Deploy
