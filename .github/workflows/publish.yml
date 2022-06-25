@@ -5,8 +5,8 @@ name: Publish
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  #push:
-    #branches: [ "main" ]
+  push:
+    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,6 +27,11 @@ jobs:
         uses: pengx17/logseq-publish@v0.1
         with:
           dest: docs
+      - name: Remove U+2029 from published Logseq graph for GitHub Pages
+        run: |
+          cd docs
+          wget -O logseq-publish-github-pages-wa.js https://gist.githubusercontent.com/gsongsong/b41dec1b348edc9e0fdfd60d43065d91/raw/edff588d4b75fa7aa04ab2048e5c1bc243a53e4b/logseq-publish-github-pages-wa.js
+          node logseq-publish-github-pages.js
       - name: Configure custom domain
         run: echo "telecom.jeon.engineer" > $GITHUB_WORKSPACE/docs/CNAME
       - name: Deploy
