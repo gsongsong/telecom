@@ -181,7 +181,7 @@
  :feature/enable-journals? false
  :default-home {:page "Telecom"}
  :favorites ["Drafts"]
- :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 1}, :checkbox {:counts 2}, :parentheses {:counts 4}, :command {:counts 4}, :paint {:counts 3}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 11}, :tag {:counts 1}, :brackets {:counts 7}, :italic {:counts 7}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
+ :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 1}, :checkbox {:counts 2}, :parentheses {:counts 4}, :command {:counts 7}, :paint {:counts 3}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 15}, :tag {:counts 1}, :brackets {:counts 7}, :italic {:counts 7}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
