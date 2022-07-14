@@ -7,6 +7,10 @@ public:: true
 		  id:: 62bb183f-4a25-44e8-9a5f-7cb5985764e8
 		- 3GPP TS 23.502 Procedures for the 5G System (5GS)
 		  id:: 62b93059-3441-4676-a2c2-574516554d77
+	- 28 series
+		- 3GPP TS 28.552
+	- 32 series
+		- 3GPP TS 32.404 Telecommu ication management; Performance Management (PM); Performance measurements; Definitions and templates
 	- 38 series
 		- 3GPP TS 38.300 NR; NR and NG-RAN Overall description; Stage-2
 		  id:: 62b92d3a-3a25-4aaa-a44a-ca9b61e2675d
