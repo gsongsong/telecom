@@ -8,6 +8,7 @@ public:: true
 		- 3GPP TS 23.502 Procedures for the 5G System (5GS)
 		  id:: 62b93059-3441-4676-a2c2-574516554d77
 	- 28 series
+		- 3GPP TS 28.541 Management and orchestration; 5G Network Resource Model (NRM); Stage 2 and stage 3
 		- 3GPP TS 28.552
 	- 32 series
 		- 3GPP TS 32.404 Telecommu ication management; Performance Management (PM); Performance measurements; Definitions and templates
