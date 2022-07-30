@@ -1,4 +1,4 @@
+template:: Article properties
 type:: article
 tags:: 
-public:: 
-template:: Article properties
+public::
